@@ -7,18 +7,18 @@
 // }
 
 //code:
-// void main() {
-//   Car c = new Car();
-//   c.disp();
-// }
+void main() {
+  Car c = new Car();
+  c.disp();
+}
 
-// class Car {
-//   String engine = "E1001";
+class Car {
+  String engine = "E1001";
 
-//   void disp() {
-//     print(engine);
-//   }
-// }
+  void disp() {
+    print(engine);
+  }
+}
 
 //Creating Instance of the class
 
@@ -32,34 +32,34 @@
 // }
 
 //code:
-// void main() {
-//   Car c = new Car("E1002");
-// }
+void main() {
+  Car c = new Car("E1002");
+}
 
-// class Car {
-//   Car(String engine) {
-//     print(engine);
-//   }
-// }
+class Car {
+  Car(String engine) {
+    print(engine);
+  }
+}
 
 //Named Constructors
 //Syntax:
 // Class_name.constructor_name(program_list)
 
 //code:
-// void main() {
-//   Car c1 = new Car.namedConst("E1003");
-//   Car c2 = new Car();
-// }
+void main() {
+  Car c1 = new Car.namedConst("E1003");
+  Car c2 = new Car();
+}
 
-// class Car {
-//   Car() {
-//     print("Non-parameterized constructor invoked");
-//   }
-//   Car.namedConst(String engine) {
-//     print("The engine is: $engine");
-//   }
-// }
+class Car {
+  Car() {
+    print("Non-parameterized constructor invoked");
+  }
+  Car.namedConst(String engine) {
+    print("The engine is: $engine");
+  }
+}
 
 //The this Keyword
 //code:
@@ -75,7 +75,6 @@ class Car {
   }
 }
 
-
 //Dart Class ─ Getters and Setters
 //Syntax for defining a getter:
 // Return_type get indentifier
@@ -87,34 +86,34 @@ class Car {
 //{
 //}
 // code:
-// class Student { 
-//    String name; 
-//    int age; 
+class Student { 
+   String name; 
+   int age; 
     
-//    String get stud_name { 
-//       return name; 
-//    } 
+   String get stud_name { 
+      return name; 
+   } 
     
-//    void set stud_name(String name) { 
-//       this.name = name; 
-//    } 
+   void set stud_name(String name) { 
+      this.name = name; 
+   } 
    
-//    void set stud_age(int age) { 
-//       if(age<= 0) { 
-//         print("Age should be greater than 5"); 
-//       }  else { 
-//          this.age = age; 
-//       } 
-//    } 
+   void set stud_age(int age) { 
+      if(age<= 0) { 
+        print("Age should be greater than 5"); 
+      }  else { 
+         this.age = age; 
+      } 
+   } 
    
-//    int get stud_age { 
-//       return age;     
-//    } 
-// }  
-// void main() { 
-//    Student s1 = new Student(); 
-//    s1.stud_name = 'MARK'; 
-//    s1.stud_age = 0; 
-//    print(s1.stud_name); 
-//    print(s1.stud_age); 
-// } 
+   int get stud_age { 
+      return age;     
+   } 
+}  
+void main() { 
+   Student s1 = new Student(); 
+   s1.stud_name = 'MARK'; 
+   s1.stud_age = 0; 
+   print(s1.stud_name); 
+   print(s1.stud_age); 
+} 
