@@ -17,7 +17,7 @@ void main() {
   print(lists);
   print(List_under_dictnory);
 
-// taking input form user
+// code to taking input form user
   stdout.write("Enter an element: ");
   String? day = stdin.readLineSync();
 
