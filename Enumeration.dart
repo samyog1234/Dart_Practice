@@ -1,3 +1,4 @@
+// Using enum for Enumeration in dart
 enum Status {
   none,
   running,
