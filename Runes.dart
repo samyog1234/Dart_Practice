@@ -5,24 +5,26 @@ import 'dart:core';
 // 2. String.codeUnits;
 // 3. String.runes;
 
-// void main() {
-//   f1();
+// void main for f1
+void main() {
+  f1();
 
-// }
+}
+// Describe of f1
+f1() {
+  String x = "Runes";
+  print(x.codeUnitAt(0));
+}
 
-// f1() {
-//   String x = "Runes";
-//   print(x.codeUnitAt(0));
-// }
-
-// void main() {
-//   f2();
-// }
-
-// f2() {
-//   String x = "Runes";
-//   print(x.codeUnits);
-// }
+//void main for f2
+void main() {
+  f2();
+}
+//describe of f2
+f2() {
+  String x = "Runes";
+  print(x.codeUnits);
+}
 
 // void main() {
 //   "A string".runes.forEach((int rune) {
