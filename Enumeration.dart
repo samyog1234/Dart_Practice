@@ -23,7 +23,7 @@ void main() {
   print("running index: ${Status.values[1]}");
 
   var today = DaysOfWeek.Tuesday;
-
+// using switch case 
   switch (today) {
     case DaysOfWeek.Monday:
       print("It's MOnday. The start of the workweek");
