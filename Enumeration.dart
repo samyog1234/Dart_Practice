@@ -15,6 +15,7 @@ enum DaysOfWeek {
   Saturday,
 }
 
+// void Main to run program
 void main() {
   print(Status.values);
   Status.values.forEach((v) => print('value: $v, index: ${v.index}'));
