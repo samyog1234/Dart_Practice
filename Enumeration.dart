@@ -5,7 +5,7 @@ enum Status {
   stopped,
   paused
 }
-
+// Second enum 
 enum DaysOfWeek {
   Monday,
   Tuesday,
