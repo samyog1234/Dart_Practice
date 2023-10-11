@@ -1,18 +1,18 @@
-// class Printer {
-//   void print_data() {
-//     print("_________Printing__Data__________");
-//   }
-// }
+class Printer {
+  void print_data() {
+    print("_________Printing__Data__________");
+  }
+}
 
-// class ConsolePrinter implements Printer {
-//   void print_data() {
-//     print("_________Printing__To__Console_________");
-//   }
-// }
-// void main() {
-//   ConsolePrinter cp = new ConsolePrinter();
-//   cp.print_data();
-// }
+class ConsolePrinter implements Printer {
+  void print_data() {
+    print("_________Printing__To__Console_________");
+  }
+}
+void main() {
+  ConsolePrinter cp = new ConsolePrinter();
+  cp.print_data();
+}
 
 
 // Implementing Multiple Interfaces
